@@ -27,7 +27,7 @@ export const translations = {
     cta: 'REZERVUOTI VIZITĄ',
     hero: {
       name: 'Linas Kecorius',
-      subtitle: 'MEISTRIŠKUMAS IR TIKSLUS STILIUS — GENTLEMAN’S EMPIRE, VILNIUS',
+      subtitle: 'MEISTRIŠKUMAS IR TIKSLUS STILIUS — VILNIUS',
       tagline:
         'Aš ne tiesiog kerpu plaukus – aš kuriu jūsų įvaizdį. Dedikuota vyrams, vertinantiems subtilią prabangą, švarias linijas ir kokybišką laiką.',
     },
@@ -114,7 +114,7 @@ export const translations = {
     cta: 'BOOK A VISIT',
     hero: {
       name: 'Linas Kecorius',
-      subtitle: 'CRAFTSMANSHIP & PRECISE STYLE — GENTLEMAN’S EMPIRE, VILNIUS',
+      subtitle: 'CRAFTSMANSHIP & PRECISE STYLE — VILNIUS',
       tagline:
         'I don’t just cut hair – I craft your image. Dedicated to men who value understated luxury, clean lines and quality time.',
     },
