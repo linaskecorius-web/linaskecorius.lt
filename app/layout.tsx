@@ -46,6 +46,14 @@ export const metadata: Metadata = {
     description:
       'Ekskliuzyvinis vyriškas plaukų kirpimas ir barzdos formavimas mašinėle Vilniuje, Gentleman\u2019s Empire (CORE verslo centras).',
     locale: 'lt_LT',
+    images: [
+      {
+        url: `${SITE_URL}/og-image.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Linas Kecorius — Vyriškas Kirpimas',
+      },
+    ],
   },
 }
 
@@ -58,9 +66,8 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BarberShop',
   name: 'Linas Kecorius - Gentleman\u2019s Empire',
-  image: 'https://www.treatwell.lt/salonas/gentleman-s-empire/',
+  image: `${SITE_URL}/og-image.jpg`,
   url: SITE_URL,
-  telephone: '+37060000000',
   priceRange: '\u20AC60 - \u20AC80',
   address: {
     '@type': 'PostalAddress',
