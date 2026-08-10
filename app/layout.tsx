@@ -1,6 +1,7 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
 import { Inter, Playfair_Display } from 'next/font/google'
+import Script from 'next/script'
 import './globals.css'
 
 const inter = Inter({
@@ -134,6 +135,21 @@ export default function RootLayout({
       lang="lt"
       className={`${inter.variable} ${playfair.variable} bg-background`}
     >
+      <head>
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-Q5VX74THCC"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-Q5VX74THCC');
+          `}
+        </Script>
+      </head>
       <body className="font-sans antialiased">
         <script
           type="application/ld+json"
