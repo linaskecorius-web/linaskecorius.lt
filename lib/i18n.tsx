@@ -27,14 +27,14 @@ export const translations = {
     cta: 'REZERVUOTI VIZITĄ',
     hero: {
       name: 'Linas Kecorius',
-      subtitle: 'MEISTRIŠKUMAS IR TIKSLUS STILIUS — VILNIUS',
+      subtitle: 'MEISTRIŠKUMAS IR ĮSIKLAUSYMAS — VILNIUS',
       tagline:
-        'Aš ne tiesiog kerpu plaukus – aš kuriu jūsų įvaizdį. Dedikuota vyrams, vertinantiems subtilią prabangą, švarias linijas ir kokybišką laiką.',
+        'Aš ne tiesiog kerpu plaukus – aš kuriu Jūsų įvaizdį. Dedikuota vyrams, vertinantiems subtilią prabangą, individualią konsultaciją ir kokybišką laiką.',
     },
     about: {
       title: 'APIE MANE',
       subtitle: 'Asmeninis dėmesys ir tikslumas',
-      text: 'Skiriu pilną dėmesį jūsų pageidavimams ir detalėms. Jokios skubos – tik ramus, profesionalus darbas, švarios linijos ir nepriekaištingai išbaigtas įvaizdis.',
+      text: 'Aistra šiam amatui gimė dar ankstyvoje jaunystėje – nuo pirmųjų bandymų su draugais iki būrio draugų kirpimo tarnaujant kariuomenėje. Nuo 2020 m. dirbu profesionaliai. Man svarbiausia – išgirsti klientą, todėl prieš pradedant darbą skiriu laiko konsultacijai. Atidžiai išklausęs Jūsų lūkesčius, visada stengiuosi patarti ir pasiūlyti geriausią sprendimą pagal plaukų tipą bei bruožus, o jei Jūsų idėja puiki – nepriekaištingai ją išpildyti. Visą dėmesį skiriu kokybei ir geram rezultatui.',
       highlights: [
         {
           title: 'Aukščiausias įvertinimas',
@@ -158,14 +158,14 @@ export const translations = {
     cta: 'BOOK A VISIT',
     hero: {
       name: 'Linas Kecorius',
-      subtitle: 'CRAFTSMANSHIP & PRECISE STYLE — VILNIUS',
+      subtitle: 'CRAFTSMANSHIP & ATTENTIVE LISTENING — VILNIUS',
       tagline:
-        'I don’t just cut hair – I craft your image. Dedicated to men who value understated luxury, clean lines and quality time.',
+        'I don’t just cut hair – I craft your image. Dedicated to men who value understated luxury, individual consultation, and quality time.',
     },
     about: {
       title: 'ABOUT',
       subtitle: 'Personal attention and precision',
-      text: 'I give my full attention to your wishes and to every detail. No rush – only calm, professional work, clean lines and a flawlessly finished look.',
+      text: 'My passion for this craft began in early youth—from first attempts on friends to cutting my unit during military service. I have been working professionally since 2020. My priority is listening to the client, which is why I take time for a consultation before getting to work. After carefully understanding your expectations, I always strive to offer advice and suggest the best approach tailored to your hair type and features—or if your idea is great, execute it flawlessly. My focus is entirely on quality and exceptional results.',
       highlights: [
         {
           title: 'Top rated',
