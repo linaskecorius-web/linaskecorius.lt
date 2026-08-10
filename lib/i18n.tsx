@@ -55,16 +55,14 @@ export const translations = {
       ],
     },
     services: {
-      title: 'PASLAUGOS IR KAINOS',
+      title: 'PASLAUGOS',
       items: [
         {
           name: 'Plaukų kirpimas',
-          price: '60 €',
           desc: 'Tikslus kirpimas, plaukų plovimas ir sušukavimas.',
         },
         {
           name: 'Plaukų kirpimas ir barzdos tvarkymas',
-          price: '80 €',
           desc: 'Tikslus plaukų kirpimas ir barzdos formavimas mašinėle.',
         },
       ],
@@ -144,16 +142,14 @@ export const translations = {
       ],
     },
     services: {
-      title: 'SERVICES & PRICING',
+      title: 'SERVICES',
       items: [
         {
           name: 'Haircut',
-          price: '€60',
           desc: 'Precise cut, hair wash and styling.',
         },
         {
           name: 'Haircut & beard grooming',
-          price: '€80',
           desc: 'Precise haircut and clipper beard shaping.',
         },
       ],

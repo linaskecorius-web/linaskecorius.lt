@@ -22,19 +22,14 @@ export function ServicesSection() {
           {t.services.items.map((s) => (
             <li
               key={s.name}
-              className="flex items-start justify-between gap-6 py-8"
+              className="py-8 text-center"
             >
-              <div>
-                <h3 className="font-serif text-2xl font-light text-foreground md:text-3xl">
-                  {s.name}
-                </h3>
-                <p className="mt-2 max-w-md text-sm leading-relaxed text-muted-foreground text-pretty">
-                  {s.desc}
-                </p>
-              </div>
-              <span className="shrink-0 font-serif text-2xl font-light text-gold md:text-3xl">
-                {s.price}
-              </span>
+              <h3 className="font-serif text-2xl font-light text-foreground md:text-3xl">
+                {s.name}
+              </h3>
+              <p className="mt-2 mx-auto max-w-md text-sm leading-relaxed text-muted-foreground text-pretty">
+                {s.desc}
+              </p>
             </li>
           ))}
         </ul>
