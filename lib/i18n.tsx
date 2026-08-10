@@ -5,7 +5,7 @@ import { createContext, useContext, useState, type ReactNode } from 'react'
 export type Lang = 'lt' | 'en'
 
 export const TREATWELL_URL =
-  'https://www.treatwell.lt/salonas/gentleman-s-empire/'
+  'https://book.treatwell.lt/salonas/gentleman-s-empire/'
 export const INSTAGRAM_URL = 'https://www.instagram.com/linas_kecorius/'
 export const REELS = [
   'https://www.instagram.com/reel/Db0K6zCR2ht/',
