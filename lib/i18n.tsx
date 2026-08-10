@@ -38,7 +38,7 @@ export const translations = {
       highlights: [
         {
           title: 'Aukščiausias įvertinimas',
-          text: 'Puikūs klientų atsiliepimai Treatwell platformoje.',
+          text: 'Daugiau nei 700+ įvertinimų Treatwell platformoje.',
         },
         {
           title: 'Meistriškas tikslumas',
@@ -68,21 +68,65 @@ export const translations = {
       ],
     },
     reviews: {
-      rating: 'Treatwell klientų įvertinimas',
+      rating: 'Treatwell klientų įvertinimas (virš 700+ atsiliepimų)',
       title: 'AUKŠČIAUSIAIS BALAIS VERTINAMAS MEISTRAS',
-      badges: ['PROFESIONALU', 'AUKŠTA KVALIFIKACIJA', 'DĖMESYS DETALĖMS'],
+      badges: ['700+ ATSILIEPIMŲ', 'PROFESIONALU', 'DĖMESYS DETALĖMS'],
       items: [
         {
-          text: 'Kaskart idealiai atliktas darbas. Linas puikiai jaučia stilių ir visada pasirūpina, kad iš salono išeičiau atrodydamas nepriekaištingai.',
-          author: 'Mantas V.',
+          text: 'Labai rekomenduoju Liną! Visada profesionaliai ir kruopščiai atlieka savo darbą – kerpa tiksliai, atsižvelgia į norus ir pataria, kas geriausiai tinka. Malonus bendravimas, gera atmosfera ir dėmesys kiekvienai detalei.',
+          author: 'Prinston',
         },
         {
-          text: 'Rami atmosfera, jokios skubos ir absoliutus tikslumas. Geriausia patirtis tvarkantis plaukus ir barzdą Vilniuje.',
-          author: 'Tomas K.',
+          text: 'Rekomenduoju 100 % visiems, kurie vertina kokybę, profesionalų požiūrį ir nepriekaištingą rezultatą. Iš Lino visada išeini ne tik puikiai apsikirpęs, bet ir su gera nuotaika!',
+          author: 'Karolis',
         },
         {
-          text: 'Aukščiausia klasė. Labai kruopštus barzdos formavimas mašinėle ir puikus bendravimas.',
-          author: 'Paulius R.',
+          text: 'Nuostabi aplinka bei aukščiausio lygio aptarnavimas. Dėkoju Linui, kad profesionaliai viską paaiškino bei pakonsultavo!',
+          author: 'Armandas',
+        },
+        {
+          text: 'Labai smagu atvykti, kai tave pasitinka su šypsena, pasiūlo atsigerti ne tik vandens. Apie aptarnavimą visiškai 💯 % tobula.',
+          author: 'Paulius',
+        },
+        {
+          text: 'Puiki vyriška vietelė atitrūkti nuo rutinos 👌',
+          author: 'Aldas',
+        },
+        {
+          text: 'Linas puikus meistras, talentingas ir dėmesingas. Puikus rezultatas. Visi patenkinti. Rekomenduoju!',
+          author: 'Oleg',
+        },
+        {
+          text: 'Puiki patirtis: atsižvelgia į pageidavimus, pasiūlo, kas geriau tinka, rekomenduoju!',
+          author: 'Aistis',
+        },
+        {
+          text: 'Geras apsikirpimas suteikia pasitikėjimo savimi, atgaivina įvaizdį ir padeda jaustis tvarkingai kiekvieną dieną.',
+          author: 'Lukas',
+        },
+        {
+          text: 'Paslauga atlikta profesionaliai ir kokybiškai.',
+          author: 'Vadim',
+        },
+        {
+          text: 'Esu labai patenkintas gaudamas kokybišką paslaugą.',
+          author: 'Konstantinas',
+        },
+        {
+          text: 'Linas is the BEST!',
+          author: 'Sergejus',
+        },
+        {
+          text: 'Neturiu ką komentuoti, nes kaip visada 🙂👍',
+          author: 'Konstantinas',
+        },
+        {
+          text: 'Linas pats geriausias!',
+          author: 'Klientas',
+        },
+        {
+          text: 'Viskas super!',
+          author: 'Vilius',
         },
       ],
     },
@@ -125,7 +169,7 @@ export const translations = {
       highlights: [
         {
           title: 'Top rated',
-          text: 'Excellent client reviews on the Treatwell platform.',
+          text: 'Over 700+ reviews on Treatwell platform.',
         },
         {
           title: 'Masterful precision',
@@ -155,21 +199,65 @@ export const translations = {
       ],
     },
     reviews: {
-      rating: 'Treatwell client rating',
+      rating: 'Treatwell client rating (over 700+ reviews)',
       title: 'A TOP-RATED MASTER',
-      badges: ['PROFESSIONAL', 'HIGHLY QUALIFIED', 'ATTENTION TO DETAIL'],
+      badges: ['700+ REVIEWS', 'PROFESSIONAL', 'ATTENTION TO DETAIL'],
       items: [
         {
-          text: 'Perfect work every single time. Linas has a great sense of style and always makes sure I leave looking flawless.',
-          author: 'Mantas V.',
+          text: 'Highly recommend Linas! Always does his job professionally and meticulously - cuts precisely, considers desires and advises what fits best.',
+          author: 'Prinston',
         },
         {
-          text: 'Calm atmosphere, no rush and absolute precision. The best hair and beard experience in Vilnius.',
-          author: 'Tomas K.',
+          text: '100% recommend to everyone who values quality, professional approach and flawless result.',
+          author: 'Karolis',
         },
         {
-          text: 'Top class. Very meticulous clipper beard shaping and great communication.',
-          author: 'Paulius R.',
+          text: 'Wonderful atmosphere and top-level service. Thanks to Linas for explaining and consulting everything professionally!',
+          author: 'Armandas',
+        },
+        {
+          text: 'Great to arrive when you are greeted with a smile, offered coffee or water. Service is 💯% perfect.',
+          author: 'Paulius',
+        },
+        {
+          text: 'Great masculine spot to escape routine 👌',
+          author: 'Aldas',
+        },
+        {
+          text: 'Linas is a great master, talented and attentive. Great result!',
+          author: 'Oleg',
+        },
+        {
+          text: 'Great experience: listens to preferences, suggests what works best, highly recommend!',
+          author: 'Aistis',
+        },
+        {
+          text: 'A good haircut gives confidence, refreshes the look and helps feel neat every day.',
+          author: 'Lukas',
+        },
+        {
+          text: 'Service done professionally and with high quality.',
+          author: 'Vadim',
+        },
+        {
+          text: 'Very satisfied receiving quality service.',
+          author: 'Konstantinas',
+        },
+        {
+          text: 'Linas is the BEST!',
+          author: 'Sergejus',
+        },
+        {
+          text: 'Nothing to comment, as always 🙂👍',
+          author: 'Konstantinas',
+        },
+        {
+          text: 'Linas is the best!',
+          author: 'Client',
+        },
+        {
+          text: 'Everything super!',
+          author: 'Vilius',
         },
       ],
     },
