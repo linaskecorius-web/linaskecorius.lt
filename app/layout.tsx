@@ -22,17 +22,17 @@ const SITE_URL = 'https://linaskecorius.lt'
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title:
-    'Linas Kecorius | Vyriškas Kirpimas ir Barzdos Tvarkymas Vilnius (CORE)',
+    'Linas Kecorius — Vyriškas Kirpimas ir Barzdos Tvarkymas Vilnius',
   description:
-    'Linas Kecorius – ekskliuzyvinis vyriškas plaukų kirpimas ir barzdos formavimas mašinėle Vilniuje, Gentleman\u2019s Empire (CORE verslo centras). Rezervuokite vizitą internetu.',
+    'Linas Kecorius – profesionalus vyriškas plaukų kirpimas ir barzdos formavimas mašinėle Vilniuje. Rezervuokite vizitą internetu.',
   keywords: [
     'Linas Kecorius',
     'Linas Kecorius kirpėjas',
+    'Linas Kecorius plaukų stilistas',
     'vyriškas kirpimas Vilnius',
     'barzdos tvarkymas Vilnius',
     'barzderis Vilnius',
-    'Gentleman\u2019s Empire CORE',
-    'vyru kirpykla Ukmerges g',
+    'vyru kirpykla Vilnius',
     'Treatwell kirpėjas Vilnius',
   ],
   generator: 'v0.app',
@@ -40,18 +40,18 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: SITE_URL,
-    siteName: 'Linas Kecorius — Gentleman\u2019s Empire',
+    siteName: 'Linas Kecorius',
     title:
-      'Linas Kecorius | Vyriškas Kirpimas ir Barzdos Tvarkymas Vilnius (CORE)',
+      'Linas Kecorius — Vyriškas Kirpimas ir Barzdos Tvarkymas Vilnius',
     description:
-      'Ekskliuzyvinis vyriškas plaukų kirpimas ir barzdos formavimas mašinėle Vilniuje, Gentleman\u2019s Empire (CORE verslo centras).',
+      'Profesionalus vyriškas plaukų kirpimas ir barzdos formavimas mašinėle Vilniuje.',
     locale: 'lt_LT',
     images: [
       {
         url: `${SITE_URL}/og-image.jpg`,
         width: 1200,
         height: 630,
-        alt: 'Linas Kecorius — Vyriškas Kirpimas',
+        alt: 'Linas Kecorius — Vyriškas Kirpimas ir Barzdos Tvarkymas',
       },
     ],
   },
@@ -65,10 +65,10 @@ export const viewport: Viewport = {
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BarberShop',
-  name: 'Linas Kecorius - Gentleman\u2019s Empire',
+  name: 'Linas Kecorius',
   image: `${SITE_URL}/og-image.jpg`,
   url: SITE_URL,
-  priceRange: '\u20AC60 - \u20AC80',
+  priceRange: '€60 - €80',
   address: {
     '@type': 'PostalAddress',
     streetAddress: 'Ukmergės g. 126',
@@ -81,16 +81,46 @@ const jsonLd = {
     latitude: 54.7126,
     longitude: 25.2502,
   },
-  openingHoursSpecification: {
-    '@type': 'OpeningHoursSpecification',
-    dayOfWeek: ['Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-    opens: '09:00',
-    closes: '19:00',
+  openingHoursSpecification: [
+    {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Tuesday', 'Wednesday', 'Thursday'],
+      opens: '10:00',
+      closes: '21:00',
+    },
+    {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Friday'],
+      opens: '10:00',
+      closes: '14:00',
+    },
+  ],
+  hasOfferCatalog: {
+    '@type': 'OfferCatalog',
+    name: 'Vyriškų kirpimų ir barzdos tvarkymo paslaugos',
+    itemListElement: [
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Plaukų kirpimas',
+          description: 'Tikslus kirpimas, plaukų plovimas ir sušukavimas.',
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Plaukų kirpimas ir barzdos tvarkymas',
+          description: 'Tikslus plaukų kirpimas ir barzdos formavimas mašinėle.',
+        },
+      },
+    ],
   },
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: '5.0',
-    reviewCount: '120',
+    reviewCount: '700',
   },
 }
 
